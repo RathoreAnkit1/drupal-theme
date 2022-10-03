@@ -1,0 +1,29 @@
+uuid: d92a96ae-b918-4c0e-8730-203d807aa23a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - system
+    - views
+  theme:
+    - project1
+id: views_block__portfolio_block_1
+theme: project1
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/portfolio"

@@ -1,0 +1,19 @@
+uuid: 598178d3-f64f-478d-9ef6-2b7e8eff5dc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.footer
+  module:
+    - user
+id: node.footer.default
+targetEntityType: node
+bundle: footer
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

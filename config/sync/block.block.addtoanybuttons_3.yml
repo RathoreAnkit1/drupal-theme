@@ -1,0 +1,20 @@
+uuid: 58f977dd-fd0e-4a67-b8aa-24909c8c2c68
+langcode: en
+status: false
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - project1
+id: addtoanybuttons_3
+theme: project1
+region: hero
+weight: -7
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'AddToAny buttons'
+  label_display: visible
+  provider: addtoany
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 038e1f8f-65f4-4719-8bd9-7357b1c23407
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.useful-
+  module:
+    - system
+  theme:
+    - project1
+id: usefullinks_2
+theme: project1
+region: footer_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:useful-'
+settings:
+  id: 'system_menu_block:useful-'
+  label: 'Useful Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

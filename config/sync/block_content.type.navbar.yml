@@ -1,0 +1,8 @@
+uuid: 4b81c1f5-85ca-4b9b-804e-23ef265cb14c
+langcode: en
+status: true
+dependencies: {  }
+id: navbar
+label: navbar
+revision: 0
+description: ''

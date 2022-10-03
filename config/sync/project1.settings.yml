@@ -1,0 +1,10 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://Screenshot_2022-09-30-10-48-26-10_40deb401b9ffe8e1df2f1cc5ba480b12.jpg'
+favicon:
+  use_default: 1

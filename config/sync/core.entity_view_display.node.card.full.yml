@@ -1,0 +1,56 @@
+uuid: fe63ae21-04d3-417e-ba4f-edd5bc1e32f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.card.field_body1
+    - field.field.node.card.field_image
+    - field.field.node.card.field_slider_title
+    - image.style.thumbnail
+    - node.type.card
+  module:
+    - svg_image
+    - user
+id: node.card.full
+targetEntityType: node
+bundle: card
+mode: full
+content:
+  field_body1:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      svg_attributes:
+        width: 100
+        height: 100
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_slider_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

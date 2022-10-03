@@ -1,0 +1,26 @@
+uuid: 965d01ad-f7b2-43cd-ad13-979b83cf7cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.card.field_body1
+    - field.field.node.card.field_image
+    - field.field.node.card.field_slider_title
+    - node.type.card
+  module:
+    - user
+id: node.card.teaser
+targetEntityType: node
+bundle: card
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body1: true
+  field_image: true
+  field_slider_title: true

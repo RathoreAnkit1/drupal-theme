@@ -1,0 +1,33 @@
+uuid: 943045b8-491d-4efb-bc2c-e155552ca2e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.clients.field_image
+    - image.style.thumbnail
+    - node.type.clients
+  module:
+    - image
+    - user
+id: node.clients.default
+targetEntityType: node
+bundle: clients
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

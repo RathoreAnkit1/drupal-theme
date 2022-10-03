@@ -1,0 +1,32 @@
+uuid: 4eecfd4f-f05f-4db0-9a60-ad1bc951ff88
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+id: node_url
+label: 'node url'
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]'
+selection_criteria:
+  05a120b9-33af-4c20-8363-fef8417bbb1b:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 05a120b9-33af-4c20-8363-fef8417bbb1b
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      card: card
+      clients: clients
+      company: company
+      footer: footer
+      hero: hero
+      page: page
+      portfolio: portfolio
+      slider: slider
+      team: team
+      webform: webform
+selection_logic: and
+weight: -5
+relationships: {  }

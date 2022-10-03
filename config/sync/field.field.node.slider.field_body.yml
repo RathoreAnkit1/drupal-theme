@@ -1,0 +1,19 @@
+uuid: 0b314e8b-64ee-4815-992e-0b8e59304c6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.slider
+id: node.slider.field_body
+field_name: field_body
+entity_type: node
+bundle: slider
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

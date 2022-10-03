@@ -1,0 +1,30 @@
+uuid: 1a1e2699-2568-4b80-8967-240eb06cb67e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_:af23a516-0779-4e95-b60a-723abb32d5b2'
+  module:
+    - block_content
+    - system
+  theme:
+    - project1
+id: belowhero
+theme: project1
+region: header
+weight: -9
+provider: null
+plugin: 'block_content:af23a516-0779-4e95-b60a-723abb32d5b2'
+settings:
+  id: 'block_content:af23a516-0779-4e95-b60a-723abb32d5b2'
+  label: 'below slider'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/about-us\r\n"

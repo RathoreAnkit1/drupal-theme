@@ -1,0 +1,37 @@
+uuid: 1bdd12b9-1a2e-4a5f-870d-6780e649ff8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.portfolio.field_image
+    - field.field.node.portfolio.field_show
+    - image.style.large
+    - node.type.portfolio
+  module:
+    - svg_image
+    - user
+id: node.portfolio.full
+targetEntityType: node
+bundle: portfolio
+mode: full
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  field_show: true
+  links: true

@@ -1,0 +1,25 @@
+uuid: 11d332d7-1772-41da-a8b1-15b52b3d8f54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:copy_right:29f70213-ea79-4040-bbbc-89e7d3c454be'
+  module:
+    - block_content
+  theme:
+    - project1
+id: copyright
+theme: project1
+region: footer_second
+weight: -9
+provider: null
+plugin: 'block_content:29f70213-ea79-4040-bbbc-89e7d3c454be'
+settings:
+  id: 'block_content:29f70213-ea79-4040-bbbc-89e7d3c454be'
+  label: 'copy right'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

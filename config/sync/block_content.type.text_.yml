@@ -1,0 +1,8 @@
+uuid: 094bb8b0-6436-4aa7-8d46-7baece8c32ad
+langcode: en
+status: true
+dependencies: {  }
+id: text_
+label: 'Text Content'
+revision: 0
+description: ''

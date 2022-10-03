@@ -1,0 +1,25 @@
+uuid: 786f260b-2577-4050-b5a1-9246427b05ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+    - system
+  theme:
+    - project1
+id: addtoanybuttons_2
+theme: project1
+region: navbar
+weight: -11
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'AddToAny buttons'
+  label_display: '0'
+  provider: addtoany
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/about-us\r\n/services\r\n/portfolio"

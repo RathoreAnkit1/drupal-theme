@@ -1,0 +1,23 @@
+uuid: 39be8263-3d0d-4250-bcf7-3a0db663de4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.navbar
+    - field.field.block_content.navbar.body
+  module:
+    - text
+id: block_content.navbar.default
+targetEntityType: block_content
+bundle: navbar
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true

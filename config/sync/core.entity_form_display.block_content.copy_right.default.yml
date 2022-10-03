@@ -1,0 +1,33 @@
+uuid: c3dee0a3-be47-44b0-afc9-e4fc50dd3a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.copy_right
+    - field.field.block_content.copy_right.body
+  module:
+    - text
+id: block_content.copy_right.default
+targetEntityType: block_content
+bundle: copy_right
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

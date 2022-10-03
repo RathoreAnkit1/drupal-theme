@@ -1,0 +1,23 @@
+uuid: 291a8e83-8029-41f8-8f3e-db15dacbcf11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_
+    - node.type.slider
+  module:
+    - link
+id: node.slider.field_slider_
+field_name: field_slider_
+entity_type: node
+bundle: slider
+label: 'Slider Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

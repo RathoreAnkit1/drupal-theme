@@ -1,0 +1,19 @@
+uuid: 019d390b-fa11-48b5-8578-af1f0c01ba09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_title
+    - node.type.hero
+id: node.hero.field_slider_title
+field_name: field_slider_title
+entity_type: node
+bundle: hero
+label: 'Title Main'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

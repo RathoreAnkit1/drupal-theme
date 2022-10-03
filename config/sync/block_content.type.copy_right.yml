@@ -1,0 +1,8 @@
+uuid: 359dddd7-8a6e-4336-8762-2cb63348e2dc
+langcode: en
+status: true
+dependencies: {  }
+id: copy_right
+label: 'copy right'
+revision: 0
+description: ''

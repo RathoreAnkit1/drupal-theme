@@ -1,0 +1,19 @@
+uuid: 3c0dd322-ed66-47ad-b39d-8f139043b598
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body1
+    - node.type.card
+id: node.card.field_body1
+field_name: field_body1
+entity_type: node
+bundle: card
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

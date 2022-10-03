@@ -1,0 +1,19 @@
+uuid: 974b8d1a-9115-43a9-a230-d7808a9fe7cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_small_tit
+    - node.type.hero
+id: node.hero.field_small_tit
+field_name: field_small_tit
+entity_type: node
+bundle: hero
+label: 'Small title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
